@@ -1,0 +1,17 @@
+.logocontainer {
+  background-color: black;
+}
+
+.logoimage {
+  display: inline;
+}
+
+.logotext {
+  display: inline;
+  color: white;
+  vertical-align: middle;
+}
+
+.banner {
+  background-image: url("../images/moto.jpeg");
+}
