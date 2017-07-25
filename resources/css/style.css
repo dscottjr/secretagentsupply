@@ -40,7 +40,7 @@ html {
 .bannertextcontainer {
   background-color: black;
   width: 20rem;
-  height: 12rem;
+  height: 10rem;
   position: relative;
   top: 9rem;
   margin-left: 6rem;
@@ -76,26 +76,45 @@ nav {
   font-size: 1rem;
 }
 
+nav span {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.mainproductcontainer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .productgrid {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  margin: 3em 0 0 0;
 }
 
 .productcontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-  border: 4px solid black;
-  height: 15rem;
   width: 30%;
 }
 
 .productimage {
+  display: flex;
   height: 9rem;
-  max-width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  border: 4px solid black;
+  padding: 2em 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.productimage img {
+  max-width: 8rem;
+}
+
+.imagetext {
+  display: block;
+  text-align: center;
+  padding: .5rem;
+  background-color: black;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
 }
