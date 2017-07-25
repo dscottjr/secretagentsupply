@@ -3,7 +3,7 @@ html {
 }
 
 .maincontainer {
-  max-width: 960px;
+
   width: 100%;
   margin: auto;
 }
@@ -23,7 +23,7 @@ html {
 }
 
 .logotext {
-  color: red;
+  color: white;
   padding-left: 1rem;
   font-family: Helvetica;
   font-size: 1rem;
@@ -88,7 +88,7 @@ nav span {
 
 .productgrid {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 3em 0 0 0;
 }
 
@@ -114,6 +114,48 @@ nav span {
   text-align: center;
   padding: .5rem;
   background-color: black;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.landhcontainer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.landhbox {
+  width: 35%;
+}
+
+.locationtext, .hourstext {
+    text-align: left;
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  footer {
+      background-color: black;
+  }
+
+.footertextcontainer {
+  height: 5rem;
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footertext {
   color: white;
   font-family: Helvetica;
   font-size: 1rem;
